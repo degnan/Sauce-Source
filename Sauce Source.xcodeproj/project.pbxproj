@@ -18,6 +18,8 @@
 		55DD6590196C395D00809FC2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD656F196C395D00809FC2 /* Cocoa.framework */; };
 		55DD6598196C395D00809FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55DD6596196C395D00809FC2 /* InfoPlist.strings */; };
 		55DD659A196C395D00809FC2 /* Sauce_SourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DD6599196C395D00809FC2 /* Sauce_SourceTests.m */; };
+		55DD65A5196C398F00809FC2 /* SaSoIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DD65A4196C398F00809FC2 /* SaSoIngredient.m */; };
+		55DD65A7196C3FC800809FC2 /* SaSoIngredientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DD65A6196C3FC800809FC2 /* SaSoIngredientTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		55DD6595196C395D00809FC2 /* Sauce SourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sauce SourceTests-Info.plist"; sourceTree = "<group>"; };
 		55DD6597196C395D00809FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55DD6599196C395D00809FC2 /* Sauce_SourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sauce_SourceTests.m; sourceTree = "<group>"; };
+		55DD65A3196C398F00809FC2 /* SaSoIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaSoIngredient.h; sourceTree = "<group>"; };
+		55DD65A4196C398F00809FC2 /* SaSoIngredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaSoIngredient.m; sourceTree = "<group>"; };
+		55DD65A6196C3FC800809FC2 /* SaSoIngredientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaSoIngredientTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,8 @@
 				55DD6584196C395D00809FC2 /* MainMenu.xib */,
 				55DD6587196C395D00809FC2 /* Images.xcassets */,
 				55DD6576196C395D00809FC2 /* Supporting Files */,
+				55DD65A3196C398F00809FC2 /* SaSoIngredient.h */,
+				55DD65A4196C398F00809FC2 /* SaSoIngredient.m */,
 			);
 			path = "Sauce Source";
 			sourceTree = "<group>";
@@ -141,6 +148,7 @@
 			children = (
 				55DD6599196C395D00809FC2 /* Sauce_SourceTests.m */,
 				55DD6594196C395D00809FC2 /* Supporting Files */,
+				55DD65A6196C3FC800809FC2 /* SaSoIngredientTests.m */,
 			);
 			path = "Sauce SourceTests";
 			sourceTree = "<group>";
@@ -255,6 +263,7 @@
 			files = (
 				55DD6583196C395D00809FC2 /* SaSoAppDelegate.m in Sources */,
 				55DD657C196C395D00809FC2 /* main.m in Sources */,
+				55DD65A5196C398F00809FC2 /* SaSoIngredient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DD65A7196C3FC800809FC2 /* SaSoIngredientTests.m in Sources */,
 				55DD659A196C395D00809FC2 /* Sauce_SourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
