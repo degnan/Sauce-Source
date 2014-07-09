@@ -7,19 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-
-typedef NS_ENUM(NSInteger, MeasurementUnits) {
-    MU_Each,
-    MU_Ounce,
-    MU_Fluid_Ounce,
-    MU_Cup
-};
+#import "SaSoMeasurement.h"
 
 @interface SaSoIngredient : NSObject
 
 @property (assign) NSString *name;
-@property (assign) MeasurementUnits units;
+@property (assign) SaSoMeasurement* measurement;
 
-- (id)initWithName:(NSString*)iName units:(MeasurementUnits)iUnits;
+- (id)initWithName:(NSString*)iName andMeasurement:(SaSoMeasurement*)iMeasurement;
+
+- (id)updateIngredient:(NSString*)iName andMeasurement:(SaSoMeasurement*)iMeasurement;
+- (id)updateIngredientName:(NSString*)iName;
+- (id)updateIngredientMeasurement:(SaSoMeasurement*)iMeasurement;
 
 @end

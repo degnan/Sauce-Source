@@ -10,13 +10,28 @@
 
 @implementation SaSoIngredient
 
-- (id)initWithName:(NSString*)iName units:(MeasurementUnits)iUnits {
+- (id)initWithName:(NSString*)iName andMeasurement:(SaSoMeasurement*)iMeasurement {
     if (self == [super init]) {
         self.name = iName;
-        self.units = iUnits;
+        self.measurement = iMeasurement;
         return self;
     } else
         return nil;
+}
+- (id)updateIngredient:(NSString*)iName andMeasurement:(SaSoMeasurement*)iMeasurement {
+    [self updateIngredientName:iName];
+    [self updateIngredientMeasurement:iMeasurement];
+    return self;
+}
+
+- (id)updateIngredientName:(NSString*)iName {
+    self.name = iName;
+    return self;
+}
+
+- (id)updateIngredientMeasurement:(SaSoMeasurement *)iMeasurement {
+    self.measurement = iMeasurement;
+    return self;
 }
 
 @end
