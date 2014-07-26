@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CB0D961983C1FD00145734 /* SaSoMeasurementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CB0D951983C1FD00145734 /* SaSoMeasurementTests.m */; };
 		55CE76E5196CBABE00BF5029 /* SaSoRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CE76E4196CBABE00BF5029 /* SaSoRecipe.m */; };
 		55CE76E8196CBB4500BF5029 /* Requirements.docx in Resources */ = {isa = PBXBuildFile; fileRef = 55CE76E7196CBB4500BF5029 /* Requirements.docx */; };
 		55CE76F0196CC8C900BF5029 /* SaSoMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CE76EF196CC8C900BF5029 /* SaSoMeasurement.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55CB0D951983C1FD00145734 /* SaSoMeasurementTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaSoMeasurementTests.m; sourceTree = "<group>"; };
 		55CE76E3196CBABE00BF5029 /* SaSoRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaSoRecipe.h; sourceTree = "<group>"; };
 		55CE76E4196CBABE00BF5029 /* SaSoRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaSoRecipe.m; sourceTree = "<group>"; };
 		55CE76E7196CBB4500BF5029 /* Requirements.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Requirements.docx; path = "Design Documents/Requirements.docx"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				55DD6594196C395D00809FC2 /* Supporting Files */,
 				55DD65A6196C3FC800809FC2 /* SaSoIngredientTests.m */,
+				55CB0D951983C1FD00145734 /* SaSoMeasurementTests.m */,
 			);
 			path = "Sauce SourceTests";
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CB0D961983C1FD00145734 /* SaSoMeasurementTests.m in Sources */,
 				55DD65A7196C3FC800809FC2 /* SaSoIngredientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
