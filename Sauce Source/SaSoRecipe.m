@@ -24,34 +24,4 @@
         return nil;
 }
 
-- (id)addIngredient:(SaSoIngredient*)ingredient 
-{
-    [self.ingredients addObject:ingredient];
-    return self;
-}
-
-- (id)removeIngredientNamed:(NSString *)name
-{
-    return self;
-}
-
-- (id)editIngredientName:(NSString *)name andMeasurement:(SaSoMeasurement *)measurement
-{
-    return self;
-}
-
-- (id)addStep:(NSString *)stepDescription afterStepNumber:(NSInteger *)stepNumber
-{
-    return self;
-}
-
-- (id)removeStepNumber:(NSInteger *)stepNumber
-{
-    return self;
-}
-
-- (id)editStepNumber:(NSInteger *)stepNumber withStepDescription:(NSString *)stepDescription
-{
-    return self;
-}
 @end

@@ -30,14 +30,4 @@ typedef NS_ENUM(NSInteger, Difficulty) {
 
 - (id)init;
 
-//Ingredient Methods
-- (id)addIngredient:(SaSoIngredient*)ingredient;
-- (id)removeIngredientNamed:(NSString*)name;
-- (id)editIngredientName:(NSString*)name andMeasurement:(SaSoMeasurement*)measurement;
-
-//Steps Methods - Add, remove or modify recipe steps
-- (id)addStep:(NSString*)stepDescription afterStepNumber:(NSInteger*)stepNumber;
-- (id)removeStepNumber:(NSInteger*)stepNumber;
-- (id)editStepNumber:(NSInteger*)stepNumber withStepDescription:(NSString*)stepDescription;
-
 @end
