@@ -27,11 +27,21 @@
     [super tearDown];
 }
 
-- (void)BasicRecipeInitialization
+- (void)testBasicRecipeInitialization
 {
     SaSoRecipe *recipe1 = [[SaSoRecipe alloc] init];
     [recipe1 setName:@"Unholy Ghost"];
     XCTAssertEqual([recipe1 name], @"Unholy Ghost", @"%@ instance name does not match expected value", [recipe1 name]);
+}
+
+- (void)testAddingFirstIngredient
+{
+    SaSoRecipe *recipe1 = [[SaSoRecipe alloc] init];
+    SaSoMeasurement *new_meas = [[SaSoMeasurement alloc] initMeasurementWithQuantity:10.0 andUnits:MU_Each];
+    SaSoIngredient *pepper = [[SaSoIngredient alloc] initWithName:@"Habanero" andMeasurement:new_meas];
+    
+    [recipe1 addIngredient:pepper];
+    XCTAssertEqual([recipe1.ingredients count], 1, @"Didn't add ingredient for some reason.");
 }
 
 @end

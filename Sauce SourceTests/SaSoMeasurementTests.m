@@ -27,7 +27,7 @@
     [super tearDown];
 }
 
-- (void)BasicMeasurementInitialization
+- (void)testBasicMeasurementInitialization
 {
     SaSoMeasurement *amount = [[SaSoMeasurement alloc] initMeasurementWithQuantity:1.0 andUnits:MU_Each];
     XCTAssertEqual([amount quantity], 1.0, @"%f instance name does not match expected value", [amount quantity]);
