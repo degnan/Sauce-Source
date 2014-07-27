@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558B87ED198530BB007E1303 /* Full Pepper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Full Pepper.jpg"; path = "Resources/Full Pepper.jpg"; sourceTree = SOURCE_ROOT; };
+		558B87EE198531EB007E1303 /* Dim Pepper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dim Pepper.jpg"; path = "Resources/Dim Pepper.jpg"; sourceTree = SOURCE_ROOT; };
 		55CB0D951983C1FD00145734 /* SaSoMeasurementTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaSoMeasurementTests.m; sourceTree = "<group>"; };
 		55CB0D981983CEAC00145734 /* SaSoRecipeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaSoRecipeTests.m; sourceTree = "<group>"; };
 		55CE76E3196CBABE00BF5029 /* SaSoRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaSoRecipe.h; sourceTree = "<group>"; };
@@ -157,6 +159,8 @@
 		55DD6576196C395D00809FC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				558B87EE198531EB007E1303 /* Dim Pepper.jpg */,
+				558B87ED198530BB007E1303 /* Full Pepper.jpg */,
 				55DD6577196C395D00809FC2 /* Sauce Source-Info.plist */,
 				55DD6578196C395D00809FC2 /* InfoPlist.strings */,
 				55DD657B196C395D00809FC2 /* main.m */,
